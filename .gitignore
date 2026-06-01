@@ -1,6 +1,8 @@
-__pycache__/ 
-*.pyc
-.ipynb_checkpoints/ 
+.env
 venv/
-.env/
-.DS_Store 
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+echo ".vs/" >> .gitignore
+echo "*.slnx" >> .gitignore
